@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#board {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    min-height: 200px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 70%;
+}
+
+button {
+    padding: 5px;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    background: #d4edda;
+}
